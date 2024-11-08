@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Console.Application", "Cons
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.Application", "Console.Application\Console.Application\Console.Application.csproj", "{80DB036C-2332-4491-8890-E2DBCA6BA2A6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AspNetCore.Application", "AspNetCore.Application", "{B57E994B-7DBD-4E33-9105-68355DD9D25E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore.Application", "AspNetCore.Application\AspNetCore.Application\AspNetCore.Application.csproj", "{F9B79DE6-7C2B-441A-B616-618505944711}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +21,17 @@ Global
 		{80DB036C-2332-4491-8890-E2DBCA6BA2A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80DB036C-2332-4491-8890-E2DBCA6BA2A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80DB036C-2332-4491-8890-E2DBCA6BA2A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9B79DE6-7C2B-441A-B616-618505944711}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9B79DE6-7C2B-441A-B616-618505944711}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9B79DE6-7C2B-441A-B616-618505944711}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9B79DE6-7C2B-441A-B616-618505944711}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{80DB036C-2332-4491-8890-E2DBCA6BA2A6} = {8DEC3888-58D1-49DC-8FC8-417B5F0ADD5D}
+		{F9B79DE6-7C2B-441A-B616-618505944711} = {B57E994B-7DBD-4E33-9105-68355DD9D25E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8749619D-C2B2-4DE1-AA3F-B545F32FDD6D}
